@@ -1,0 +1,2 @@
+public class ListSumServiceTest {
+}
