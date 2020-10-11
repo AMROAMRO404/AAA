@@ -1,4 +1,4 @@
 .idea/
 AAA.iml
-src/test
-/target
+./src/test
+./target
