@@ -5,7 +5,7 @@ public class theImpact {
         public static void main(String[] args) {
             try {
                 FileWriter myWriter = new FileWriter("filename.txt");
-                myWriter.write("hello");
+                myWriter.write("hello world");
                 myWriter.close();
                 System.out.println("Successfully wrote to the file.");
             } catch (IOException e) {
