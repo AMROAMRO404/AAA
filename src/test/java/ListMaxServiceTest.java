@@ -13,6 +13,6 @@ public class ListMaxServiceTest {
         arr.add(3);
 
         ListMaxService testService = new ListMaxService(arr);
-        Assert.assertEquals(3, testService.getMax());
+        Assert.assertEquals(3, testService.getMax(arr));
     }
 }

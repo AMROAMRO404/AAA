@@ -13,7 +13,7 @@ public class ListSumService {
         this.myList = myList;
     }
 
-    public int getSum(){
+    public int getSum(ArrayList<Integer> arr){
         int sum = 0;
         for(int i=0;i<this.myList.size();i++){
             sum+=myList.get(i);

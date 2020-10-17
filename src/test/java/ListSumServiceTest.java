@@ -15,7 +15,7 @@ public class ListSumServiceTest {
         testList.add(5);
         testList.add(5);
         ListSumService test = new ListSumService(testList);
-        int expected = test.getSum();
+        int expected = test.getSum(testList);
         int actual = 15;
         Assert.assertEquals(expected,actual);
     }

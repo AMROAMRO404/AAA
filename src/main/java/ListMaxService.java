@@ -8,7 +8,7 @@ public class ListMaxService {
         this.arr = arr;
     }
 
-    public int getMax(){
+    public int getMax(ArrayList<Integer> arr){
         int max = Integer.MIN_VALUE;
         for(int i=0; i<arr.size(); i++){
             if(arr.get(i)>max){

@@ -11,6 +11,6 @@ public class SumOverMaxService {
         this.maxService = maxService;
     }
     public int getSumOverMax(){
-        return sumService.getSum() / maxService.getMax();
+        return sumService.getSum(arr) / maxService.getMax(arr);
     }
 }

@@ -14,8 +14,8 @@ public class SumOverMaxServiceTest {
         ListSumService sumMock = mock(ListSumService.class);
         ListMaxService maxMock = mock(ListMaxService.class);
         SumOverMaxService sumOverMaxService = new SumOverMaxService(list, sumMock, maxMock);
-        when(sumMock.getSum()).thenReturn(30);
-        when(maxMock.getMax()).thenReturn(10);
+        when(sumMock.getSum(list)).thenReturn(30);
+        when(maxMock.getMax(list)).thenReturn(10);
         Assert.assertEquals(3, sumOverMaxService.getSumOverMax());
     }
 }
